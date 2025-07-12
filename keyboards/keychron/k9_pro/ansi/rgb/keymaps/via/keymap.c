@@ -56,7 +56,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
     [L_FN1] = LAYOUT_61_ansi(
         _______,  KC_F1,        KC_F2,          KC_F3,          KC_F4,          KC_F5,     KC_F6,   KC_F7,          KC_F8,          KC_F9,          KC_F10,             KC_F11,   KC_F12,   _______,
-        _______,  _______,      KC_MS_BTN1,     _______,        _______,        _______,   KC_INS,  KC_HOME,        KC_UP,          KC_END,         KC_MINS,            KC_EQL,   _______,  _______,
+        _______,  KC_MS_BTN1,   _______,        _______,        _______,        _______,   KC_INS,  KC_HOME,        KC_UP,          KC_END,         KC_MINS,            KC_EQL,   _______,  _______,
         KC_CAPS,  _______,      _______,        _______,        _______,        _______,   KC_PGUP, KC_LEFT,        KC_DOWN,        KC_RIGHT,       KC_ESC,             _______,            _______,
         _______,                _______,        _______,        _______,        _______,   BAT_LVL, KC_PGDN,        KC_DEL,         KC_BSPC,        _______,            KC_BSLS,            _______,
         _______,  _______,      _______,                                                  _______,                                                  _______,  _______,  _______,  _______),
